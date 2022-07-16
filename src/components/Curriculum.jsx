@@ -12,7 +12,7 @@ function Curriculum() {
         <img src={CV} />
         </div>
         <div className='pb-5'>
-            <button class="bg-blue-500 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded">Descargar CV</button>
+            <a href={CV} download='LUCAS FRANCESCHELLI CV'><button className="bg-blue-500 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded">Descargar CV</button></a>
         </div>
     </div>
   )
