@@ -29,7 +29,7 @@ const NavBar = () => {
             <a href="#aboutme" className='block mt-4 lg:inline-block lg:mt-0 text-white  mr-4 hover:border-b-2 border-sky-600 cursor-pointer'>Sobre mi</a>
             </Link>
             <Link to={'/portfolio'}>
-            <a className='block mt-4 lg:inline-block lg:mt-0 text-white  mr-4 hover:border-b-2 border-sky-600 cursor-pointer'>Portafolio</a>
+            <a className='block mt-4 lg:inline-block lg:mt-0 text-white  mr-4 hover:border-b-2 border-sky-600 cursor-pointer'>Portfolio</a>
             </Link>
             <Link to={'/curriculum'}>
             <a className='block mt-4 lg:inline-block lg:mt-0 text-white  mr-4 hover:border-b-2 border-sky-600 cursor-pointer'>Curriculum</a>
@@ -39,7 +39,6 @@ const NavBar = () => {
             </Link>
           </div>
         </div>
-
     </nav>
   )
 }
